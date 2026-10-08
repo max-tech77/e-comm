@@ -67,11 +67,11 @@ class Cart {
 
 // ===== Data =====
 const products = [
-  new Electronics(1, "Smartphone", 15999, "images/smartphone.svg", 12),
-  new Electronics(2, "Headphones", 1999, "images/headphones.svg", 6),
-  new Clothing(3, "T-Shirt", 799, "images/tshirt.svg", "M"),
-  new Clothing(4, "Jeans", 1499, "images/jeans.svg", "L"),
-  new Electronics(5, "Keyboard", 999, "images/keyboard.svg", 12)
+  new Electronics(1, "Smartphone", 15999, "images/smartphone.jpeg", 12),
+  new Electronics(2, "Headphones", 1999, "images/headphones.jpeg", 6),
+  new Clothing(3, "T-Shirt", 799, "images/tshirt.jpeg", "M"),
+  new Clothing(4, "Jeans", 1499, "images/jeans.jpeg", "L"),
+  new Electronics(5, "Keyboard", 999, "images/keyboard.jpeg", 12)
 ];
 const cart = new Cart();
 
